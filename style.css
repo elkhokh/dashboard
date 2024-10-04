@@ -1,0 +1,197 @@
+
+  *{ 
+    padding: 0;
+    margin: 0;
+    color: white ;
+    font-family:  sans-serif;
+
+}
+
+body{
+    background-color :rgba(1, 0, 2, 0.792);
+    display: flex;
+}
+
+
+.img-box{
+ width:50px ;   
+ height:50px ;
+ border-radius: 50%;
+ overflow: hidden;
+border: 3px solid white;
+flex-shrink: 0;
+}
+
+.img-box imge{
+    width:100%;   
+   
+   }
+.pro{
+    display :flex;
+    align-items: center;
+    gap :30px;
+}
+
+.pro h2{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.menu{
+    background-color:rgba(31, 21, 8, 0.859);
+    width:60px;
+    height: 100vh;
+    padding : 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.menu:hover{
+
+    width:260px;}
+
+
+ul{
+    list-style:none;
+    position: relative;
+    height:95%
+
+}
+ul li a{
+    display : block;
+    text-decoration:none ;
+    padding :10px;
+    margin :10px 0px;
+    border-radius: 10px;
+    display :flex;
+    align-items:center;
+    gap:40px;
+   /* transition: .5s;*/
+
+}
+
+ul li a:hover, .active1 ,.data .box:hover{
+ background-color: rgb(156, 91, 11);
+
+
+}
+/*.active2:hover{
+    background-color: rgb(97, 6, 7);
+   
+   }*/
+   .log-out {
+    /* background-color: brown;*/
+    
+     position: absolute;
+     bottom:0;
+     width :100%;
+    
+ }
+ 
+   
+.log-out a{
+   /* background-color: brown;*/
+    
+    background-color: rgb(97, 6, 7);
+}
+
+ul li a i{
+    color:rgb(13, 233, 108);
+    font-size:30px;
+
+
+}
+
+.cont{
+   /* background-color: antiquewhite;*/
+    width:100%;
+    margin: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+.tit{
+    background-color: rgb(28, 31, 68);
+    padding:10px ;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 10PX 0;
+
+}
+
+.data{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+
+.data .box{
+    background-color: rgba(26, 17, 34, 0.695);
+    height:150px ;
+    flex-basis: 150px ;
+    flex-grow:1 ;
+    border-radius:8px ;
+    display:flex ;
+    align-items:center ;
+    justify-content: space-around;
+}
+.data .box i{
+    font-size: 40px;
+    
+}
+.data .box .box .da{
+    text-align: center;
+
+}
+.data .box .box .da span{
+    font-size: 30px;
+
+}
+
+table{
+    width:100%;
+    text-align: center;
+    border-spacing:6px ;
+    
+}
+
+td , th {
+    background-color: rgb(18, 18, 60);
+    height:40px ;
+    border-radius:8px ;
+
+}
+
+th{
+    background-color: rgb(6, 47, 47);
+}
+
+.price ,.count{
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.price {
+    background-color:rgba(20, 139, 24, 0.64); 
+}
+
+.count{
+    background-color:rgba(131, 104, 23, 0.851);
+    color: black;
+    font-weight: bold;
+}
+
+td:hover{
+    width:auto;
+background-color:rgba(73, 2, 2, 0.64);
+}
+/* .select:hover{
+    width:auto;
+    background-color:rgba(246, 220, 220, 0.64);
+}*/
